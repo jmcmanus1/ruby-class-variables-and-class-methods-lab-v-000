@@ -33,5 +33,6 @@ class Song
     @@genres.each do |genre|
     counted << genre
     binding.pry
+    end
   end
 end
