@@ -27,10 +27,7 @@ class Song
   def self.genres
     @@genres.uniq!
   end
-
-["rap", "rap", "pop"]
-array.each_with_object(Hash.new(0)){|string, hash| hash[string] += 1}
-
+  
   def self.genre_count
     counted = {}
     @@genres.each do |genre|
